@@ -1,9 +1,11 @@
+var scripts = document.getElementsByTagName("script")
+var currentScriptPath = scripts[scripts.length-1].src;
 angular.module('CityClock', [])
 .directive('ngCityClock', ['$interval', 'TimeFactory', 'TimeService', function($interval, TimeFactory, TimeService) {
 	return {
 		restrict : 'E',
 		scope: {},
-	    templateUrl: 'templates/clock.html',
+	    templateUrl: currentScriptPath.replace('app.js', 'templates/clock.html'),
 		link: function(scope, elem, attrs) {			
 			if(typeof attrs.city !== 'undefined') {
 				scope.city = attrs.city;
