@@ -31,6 +31,11 @@ Example
 <ng-city-clock city="Trivandrum"></ng-city-clock>
 ```
 
+## Contributing
+
+Pull requests are appreciated.
+
+
 ## Licence
 
 MIT Licence
