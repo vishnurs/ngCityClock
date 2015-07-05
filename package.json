@@ -1,0 +1,28 @@
+{
+  "name": "ngCityClock",
+  "version": "1.0.0",
+  "description": "An AngularJS Directive to get the local time of a city",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishnurs/ngCityClock.git"
+  },
+  "author": "vishnurs <http://vishnurs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishnurs/ngCityClock/issues"
+  },
+  "homepage": "https://github.com/vishnurs/ngCityClock",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-html": "^1.0.3",
+    "gulp-uglifyjs": "^0.6.2",
+    "jshint-stylish": "^2.0.1"
+  }
+}
