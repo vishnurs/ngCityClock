@@ -30,6 +30,9 @@ Example
 <ng-city-clock city="Washington"></ng-city-clock>
 <ng-city-clock city="Trivandrum"></ng-city-clock>
 ```
+## Demo
+
+http://labs.vishnurs.com/ngCityClock/demo/
 
 ## Contributing
 
